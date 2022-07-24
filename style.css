@@ -95,7 +95,8 @@ body {
 .team-card {
     width: 280px;
     height: 400px;
-    box-shadow: 5px 5px 5px rgb(219, 216, 216);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgb(219, 216, 216);
 }
 
 .team-card-img {
