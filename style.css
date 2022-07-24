@@ -1,92 +1,145 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
-    body{
-        margin: 0px;
-        padding: 0px;
-        font-family: 'Raleway', sans-serif;
-    }
 
-    .header-container{
-        display: flex;
-        align-items: center;
-        background-image: url('./images/mac.jpg');
-        background-position: center;
-        background-size: cover;
-        height: 100vh;
-        padding: 0px 70px;
-    }
-    
-    .header-element h1{
-        color: white;
-        font-size: 60px;
-    }
-    .header-element p{
-        color: white;
-        font-size: 20px;
-        padding: 20px 0px;
-    }
-    .button-style{
-        padding: 10px 20px;
-        font-size: 18px;
-        background-color: white;
-        text-decoration: none;
-    }
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
 
-    .button-style:hover{
-        background-color: #e0dada;
-    }
+.header-container {
+    display: flex;
+    align-items: center;
+    background-image: url('./images/mac.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 0px 70px;
+}
 
-    .about-container{
-        margin: 120px 50px;
-    }
+.header-element h1 {
+    color: white;
+    font-size: 60px;
+}
 
-    .about-title{
-        text-align: center;
-    }
+.header-element p {
+    color: white;
+    font-size: 20px;
+    padding: 20px 0px;
+}
 
-    .card-container{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        margin-top: 80px;
-    }
-    .card{
-        text-align: center;
-    }
+.button-style {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: white;
+    text-decoration: none;
+}
 
-    .card-image{
-        width: 100px;
-    }
+.button-style:hover {
+    background-color: #e0dada;
+}
 
-    .card-text{
-        font-size: 14px;
-        font-weight: 300;
-    }
+.about-container {
+    margin: 120px 50px;
+}
 
-    .view-work-container{
-        background-color: rgb(209, 207, 207);
-        display: flex;
-        gap: 50px;
-        padding: 120px 70px;
-    }
-    
-    .work-image{
-        width: 550px;
-        border-radius: 10px;
-    }
+.about-title {
+    text-align: center;
+}
 
-    .work-text{
-        padding: 10px 0 20px 0;
-    }
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 80px;
+    gap: 5px;
+}
 
-    .team-container{
-        text-align: center;
-        margin: 60px 50px;
-    }
+.card {
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.card:hover{
+    background-color: rgb(241, 237, 237);
+}
 
-    .team-card{
-        width: 280px;
-        height: 400px;
-        box-shadow: 5px 5px 5px rgb(219, 216, 216);
-    }
-    .team-card-img{
-        width: 250px;
-    }
+.card-image {
+    width: 100px;
+}
+
+.card-text {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.view-work-container {
+    background-color: rgb(209, 207, 207);
+    display: flex;
+    gap: 50px;
+    padding: 120px 70px;
+}
+
+.work-image {
+    width: 550px;
+    border-radius: 10px;
+}
+
+.work-text {
+    padding: 10px 0 20px 0;
+}
+
+.team-container {
+    text-align: center;
+    margin: 60px 50px;
+}
+
+.team-card {
+    width: 280px;
+    height: 400px;
+    box-shadow: 5px 5px 5px rgb(219, 216, 216);
+}
+
+.team-card-img {
+    width: 250px;
+}
+.contact-container{
+    margin: 120px 50px;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 50px;
+}
+
+.input-field{
+    display: block;
+    width: 350px;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(221, 220, 220);
+}
+
+.submit-button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(59, 57, 57);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgb(43, 41, 41);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
